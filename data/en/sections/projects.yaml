@@ -26,30 +26,30 @@ projects:
 - name: LESOG
   summary: |
     LESOG (Local Exchange Service Order Generator) receives LSR from CLEC through Frontend Systems to LASR. LASR receives the XML input file does initial validation (VER, PON verification) stores the input file for record keeping and sends the LSR to LESOG. LESOG receives the LSR from LASR does 1st Level & 2nd Level validation, generates the Service Order and sends response back to LASR. LESOG interfaces to different mainframe systems (BOCRIS, BOCABS, ICLOC, TIRKS, RSAG, ATLAS, COFFI, LFACS etc) for data acquisition and entry. LESOG generates service orders from LSRs submitted LASR, updates the Service Order in SOCS and sends the response message (successful/failure) back to LASR.
-  tags: ["SpringBoot", "Java", "RestFul", "SQL", "Taskmate", "Linux", "Unix"]
+  tags: ["SpringBoot", "Java", "RestFul", "SQL", "Taskmate", "Linux", "Unix", "SpringMVC", "SpringSecurity","SpringCloud"]
 
-- name: MQAdapters
+- name: Adapters
   summary: |
-    Adapter is the interface between the provisioning server and the MQ Billing & CRM. 
-    It picks requests from MQ Billing & CRM and sends them to the provisioning server 
+    Adapter is the interface between the provisioning server and the Billing & CRM. 
+    It picks requests from Billing & CRM and sends them to the provisioning server 
     in a format understandable by the provisioning server. Adapter waits for a response 
     from the provisioning server for the request sent. After receiving the response 
-    from the provisioning server, the adapter sends the response to MQ Billing & CRM 
+    from the provisioning server, the adapter sends the response to Billing & CRM 
     in a format understandable by it.
-  tags: ["Java", "SQL", "WebServices", "MQRabbit", "MVC", "JDBC", "Multi-Threading", "Collections"]
+  tags: ["Java", "SQL", "WebServices", "RabbitMQ", "MVC", "JDBC", "Multi-Threading", "Collections", "NoSQL", "MongoDB","Cassandra","SpringBoot"]
 
   
 - name: MQRadius
   
   summary: RADIUS (Remote Authentication Dial-in User Service) is a networking protocol that provides centralized Authentication, Authorization, Accounting (AAA) management for users who connect and use a network service. Radius is designed based on IETF standard RFC 2865 and RFC 2866 respectively. It is possible to integrate with various broadband network elements like NAS systems and Bandwidth Manager. Radius is a client/server protocol that runs in the application layer using UDP as transport.
   
-  tags: ["Java", "SQL", "WebServices", "MQRabbit", "MVC", "JDBC", "Multi-Threading", "Collections"]
+  tags: ["Java", "SQL", "WebServices", "RabbitMQ", "MVC", "JDBC", "Multi-Threading", "Collections"]
   
 - name: MQNsure
   
   summary: MQNSURE is a complete end-to-end solution addressing the operator challenges and also ensuring growth even while technology changes. It is a web application that provides the service providers an easy way to create and modify bandwidths, plans and policies and apply those to users.
 
-  tags: ["WebApplication", "SQL", "WebServices", "MQRabbit", "MVC", "JDBC", "Multi-Threading", "Collections"]
+  tags: ["WebApplication", "SQL", "WebServices", "RabbitMQ", "MVC", "JDBC", "Multi-Threading", "Collections"]
 
 
 - name: MQNWebServices

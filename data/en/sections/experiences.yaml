@@ -11,6 +11,34 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: FreshBooks.
+    url: "https://www.freshbooks.com/"
+    location: Toronto, Ontario, Canada.
+    logo: /images/sections/experiences/Freshbooks.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company1.jpg
+    # company overview
+    overview: |
+        My time at FreshBooks has been a great learning experience so far. I’m currently working on building a powerful Adapter module that connects the Billing & CRM systems with the Provisioning Server, streamlining data flow and improving efficiency. I also design secure, scalable APIs using Spring Boot and work with both SQL and NoSQL databases.
+
+        What really makes this experience special is the team—collaborative, driven, and always supportive. I’m learning a lot, growing as a developer, and I’m truly thankful for the projects, challenges, and amazing people I get to work with every day.
+  positions:
+  - designation: Software Developer
+    start: Oct 2024
+    end: Till Date
+    responsibilities:
+    - Developed a robust Adapter module to act as a communication bridge between the Billing & CRM system and the Provisioning Server, ensuring seamless request/response transformation and exchange between both systems.
+    - Developed secure and scalable applications using the Spring ecosystem, including Spring MVC, Spring IoC, Spring Transaction Management, and Spring Security.
+    - Designed and optimized REST APIs using Spring Boot with built-in security mechanisms, and documented endpoints using Swagger for ease of integration and maintenance.
+    - Utilized Hibernate ORM with SQL to streamline and optimize database interactions, enhancing performance and code maintainability.
+    - Worked with both relational databases (SQL Server, MySQL) and NoSQL databases (MongoDB, Cassandra) to manage and retrieve large volumes of structured and unstructured data efficiently.
+    - Gathered functional and technical requirements, participated in project planning, estimation, and documentation, contributing to the full Software Development Life Cycle (SDLC).
+    - Wrote complex SQL queries, stored procedures, and search filters for efficient data manipulation and retrieval in SQL Server and MYSQL databases.
+    - Embraced Agile methodology across all development phases—design, coding, testing, and deployment—ensuring timely delivery and continuous feedback integration.
+    - Followed Test-Driven Development (TDD) principles, driving high code quality through unit, integration, and performance testing using JUnit, JMeter, SOAP UI, and Postman.
+    - Leveraged advanced Java 1.8+ features such as Lambda expressions, Stream API, and functional interfaces for cleaner, more efficient, and maintainable code.
+  
+- company:
     name: Amdocs Development Center India.
     url: "https://www.amdocs.com/"
     location: Pune, India
@@ -44,7 +72,6 @@ experiences:
     start: Aug 2020
     end: Nov 2021
     responsibilities:
-    - Designed and implemented a multi-threading adapter for RaceOnline Bangladesh, utilizing Java, Servlets, RESTful Web Services, JSON, RabbitMQ, JDBC, and MySQL to enhance system performance and scalability.
     - Developed and integrated Multi-Level Fair Usage Policy Plan and Add-on plans into the Radius Server (AAA), resulting in a 25% increase in subscription upgrades. 
     - Demonstrated proficiency in the project life cycle, including requirements collection and other project management activities.
     - Implemented MAC authentication functionalities as per client requirements, enabling and disabling as needed.
